@@ -106,9 +106,9 @@ The website is deployed on **Render**.
 
 | Platform         | Link                                  |
 | ---------------- | ------------------------------------- |
-| 📸 Instagram     | https://instagram.com/arrs_eden_bites |
-| 💬 WhatsApp      | https://wa.me/918297782274            |
-| 📧 Email         | mailto:arrsedenbites@gmail.com        |
+| 📸 Instagram     | [arrs_eden_bites](https://instagram.com/arrs_eden_bites) |
+| 💬 WhatsApp      | [+91 8297782274](https://wa.me/918297782274)            |
+| 📧 Email         | [arrsedenbites@gmail.com](mailto:arrsedenbites@gmail.com)        |
 | 📍 Google Maps | [Find us on Google Maps](https://maps.app.goo.gl/JeeYYi9nVgK6zcvp7) |
 | ⭐ Leave a Review | [Review us on Google](https://www.google.com/search?sca_esv=ffce3b99cdbb6cfc&rlz=1C1UEAD_enIN1029IN1031&sxsrf=APpeQnvwTz8ut5UaCvP_78w2n2X0Xfb2jA:1782153407817&q=arr%27s+eden+bites+devarapalle+reviews&uds=AJ5uw1-JSuYKPaF9U_bzeRmWEiKOwbzYkpP_29tE9l5dxZJkDAX2nImEgSfSrXNKZ1fCLGSmmtuvYJODP1N-wzg7S3AObjFeeRxRxUeVoW1tIp8fssYbuG8akRLTxg_HTIuhT9S-T7tptNnkGRca3gwv6yfqQJUxVJzeytuLObVBYGAAdHmv32W7volmQlBEWSn8g1xrO6A6Zkq3d_r3Zn6CgJl5rst-6MdLehLhZUAOQ05xeLzAhGgvqLw3qJy5p3lfgSMyO86hmC4PuTWaSrHrYQicP4blZe_3wq2IB0NIVHmn0MluhH6HbRQSIo5jcnwe10FotSaD1AX3p92IDW8jSw8q-iS_6zVFhL_6WPdHqNL64Yd0m4E&si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_02C6scNp5MFZlptCKXb3Z5wFBkILH3imROhCE8HnfidT83vGB-rlDp0k1AZaLbBGnz_hLELnrQhlRjeNm0knkcTY-Wy5g2Dz6OzwVX2oi4qm33TOg%3D%3D&sa=X&ved=2ahUKEwj_ibvmvpuVAxWfxzgGHYz0IF4Qk8gLegQIGhAB&ictx=1) |
 
