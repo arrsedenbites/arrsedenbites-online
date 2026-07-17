@@ -85,52 +85,40 @@
             </div>
             <div class="menu-tabs">
                 <button class="menu-tab active" onclick="filterMenu('all')">All Items</button>
-                <button class="menu-tab" onclick="filterMenu('waffles')">🍦 Waffles & Lolly</button>
+                <button class="menu-tab" onclick="filterMenu('waffles')">🍦 Waffles</button>
                 <button class="menu-tab" onclick="filterMenu('kulfi')">🥚 Egg Kulfi</button>
                 <button class="menu-tab" onclick="filterMenu('fries')">🍟 French Fries</button>
                 <button class="menu-tab" onclick="filterMenu('chicken')">🍗 Chicken</button>
                 <button class="menu-tab" onclick="filterMenu('juices')">🧃 Juices</button>
             </div>
             <div class="menu-grid" id="menuGrid">
-                <!-- Waffles & Popsicle -->
+                <!-- Waffles -->
                 <div class="menu-item" data-category="waffles">
                     <span class="item-badge">Bestseller</span>
-                    <img src="images/menu/classic-waffle.png" alt="Popsicle Waffle (Single)" class="item-img">
-                    <h3>Popsicle Waffle (Single)</h3>
-                    <p class="item-desc">Golden crispy waffle drizzled with chocolate syrup and topped with fresh fruits.</p>
+                    <img src="images/menu/classic-waffle.png" alt="Popsicle Waffle" class="item-img">
+                    <h3>Popsicle Waffle</h3>
+                    <p class="item-desc">Choose from Dark, White, or Milk Chocolate.</p>
                     <div class="item-footer">
-                        <span class="item-price">₹19</span>
+                        <span class="item-price">₹30</span>
                         <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
                     </div>
                     <div class="item-full-details">
-                        <p><strong>Full Description:</strong> A Belgian-style waffle with a crispy exterior and fluffy interior, served warm with a generous drizzle of Belgian chocolate sauce, fresh banana slices, strawberries, and a dusting of powdered sugar.</p>
-                        <p><strong>Best enjoyed:</strong> As a dessert or indulgent snack.</p>
+                        <p><strong>Flavors:</strong> Dark Chocolate | White Chocolate | Milk Chocolate</p>
+                        <p><strong>Description:</strong> Crispy waffle on a stick, dipped in your choice of premium chocolate and topped with colorful sprinkles.</p>
                     </div>
                 </div>
                 <div class="menu-item" data-category="waffles">
-                    <img src="images/menu/classic-waffle.png" alt="Popsicle Waffle (Double)" class="item-img">
-                    <h3>Popsicle Waffle (Double)</h3>
-                    <p class="item-desc">Multi-layered fruity popsicle bursting with tropical flavors. A colorful treat!</p>
-                    <div class="item-footer">
-                        <span class="item-price">₹29</span>
-                        <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
-                    </div>
-                    <div class="item-full-details">
-                        <p><strong>Layers:</strong> Strawberry, mango, and blueberry. Each layer made with real fruit puree for a refreshing, natural taste.</p>
-                        <p><strong>Perfect for:</strong> Hot days and instant smiles.</p>
-                    </div>
-                </div>
-                <div class="menu-item" data-category="waffles">
+                    <span class="item-badge">New</span>
                     <img src="images/menu/candy-lolly.png" alt="Lolly Waffle" class="item-img">
                     <h3>Lolly Waffle</h3>
-                    <p class="item-desc">Whimsical swirl lollipop in assorted flavors — strawberry, orange, and grape.</p>
+                    <p class="item-desc">Choose from Dark, White, or Milk Chocolate.</p>
                     <div class="item-footer">
-                        <span class="item-price">₹39</span>
+                        <span class="item-price">₹40</span>
                         <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
                     </div>
                     <div class="item-full-details">
-                        <p><strong>Flavors:</strong> Choose from strawberry-vanilla swirl, orange-cream, or grape-tutti frutti.</p>
-                        <p><strong>Size:</strong> Large 5-inch lollipop, hand-pulled.</p>
+                        <p><strong>Flavors:</strong> Dark Chocolate | White Chocolate | Milk Chocolate</p>
+                        <p><strong>Description:</strong> A whimsical swirl lollipop waffle, hand-dipped in chocolate with a crunchy outer layer.</p>
                     </div>
                 </div>
 
@@ -138,10 +126,10 @@
                 <div class="menu-item" data-category="kulfi">
                     <span class="item-badge">Signature</span>
                     <img src="images/menu/classic-egg-kulfi.png" alt="Classic Egg Kulfi" class="item-img">
-                    <h3>Classic Egg Kulfi /Egg Roll</h3>
-                    <p class="item-desc">Creamy frozen dessert with rich egg custard, cardamom, and saffron. Pure indulgence.</p>
+                    <h3>Classic Egg Kulfi</h3>
+                    <p class="item-desc">Creamy frozen dessert with rich egg custard, cardamom, and saffron.</p>
                     <div class="item-footer">
-                        <span class="item-price">₹39</span>
+                        <span class="item-price">₹40</span>
                         <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
                     </div>
                     <div class="item-full-details">
@@ -149,46 +137,45 @@
                         <p><strong>Serving:</strong> Served in a traditional clay pot for an earthy touch.</p>
                     </div>
                 </div>
-                
 
                 <!-- French Fries -->
                 <div class="menu-item" data-category="fries">
                     <span class="item-badge">Spicy</span>
                     <img src="images/menu/classic-fries.png" alt="French Fries" class="item-img">
                     <h3>French Fries</h3>
-                    <p class="item-desc">Crispy golden fries seasoned with our secret spice mix. Perfectly salted.</p>
+                    <p class="item-desc">Crispy golden fries seasoned with our secret spice mix.</p>
                     <div class="item-footer">
-                        <span class="item-price">₹49</span>
+                        <span class="item-price">₹50</span>
                         <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
                     </div>
                     <div class="item-full-details">
                         <p><strong>Cut:</strong> Hand-cut thick potato fries, double-fried for extra crispiness.</p>
                         <p><strong>Seasoning:</strong> Our signature blend of sea salt, paprika, garlic powder, and a hint of black pepper.</p>
+                        <p><strong>Served with:</strong> Tomato ketchup and our special spicy mayo.</p>
                     </div>
                 </div>
-                
 
                 <!-- Chicken Items -->
                 <div class="menu-item" data-category="chicken">
                     <span class="item-badge">Popular</span>
-                    <img src="images/menu/chicken-kabab.png" alt="Chicken Kabab" class="item-img">
-                    <h3>Chicken Kabab</h3>
-                    <p class="item-desc">Tender marinated chicken skewers grilled to perfection with smoky flavors.</p>
+                    <img src="images/menu/chicken-leg-piece.png" alt="Chicken Leg - Oil Fried" class="item-img">
+                    <h3>Chicken Leg - Oil Fried</h3>
+                    <p class="item-desc">1 Piece (₹60) | 2 Pieces (₹120)</p>
                     <div class="item-footer">
-                        <span class="item-price">₹(Contact the counter)</span>
+                        <span class="item-price">₹60 / ₹120</span>
                         <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
                     </div>
                     <div class="item-full-details">
-                        <p><strong>Marination:</strong> Yogurt-based with ginger-garlic paste, garam masala, and a touch of lemon. Grilled over charcoal for that authentic smoky taste.</p>
+                        <p><strong>Description:</strong> Crispy, golden-fried chicken leg with a flavorful spice coating. Available in 1 or 2 pieces.</p>
                         <p><strong>Served with:</strong> Mint chutney and onion rings.</p>
                     </div>
                 </div>
                 <div class="menu-item" data-category="chicken">
-                    <img src="images/menu/chicken-pakoda.png" alt="Chicken Pakoda" class="item-img">
-                    <h3>Chicken Pakoda</h3>
-                    <p class="item-desc">Crispy battered chicken fritters with aromatic spices. Perfect with chutney.</p>
+                    <img src="images/menu/chicken-pakoda.png" alt="Chicken Pakodi" class="item-img">
+                    <h3>Chicken Pakodi</h3>
+                    <p class="item-desc">1 Plate (₹60)</p>
                     <div class="item-footer">
-                        <span class="item-price">₹(Contact the counter)</span>
+                        <span class="item-price">₹60</span>
                         <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
                     </div>
                     <div class="item-full-details">
@@ -197,30 +184,73 @@
                     </div>
                 </div>
                 <div class="menu-item" data-category="chicken">
-                    <span class="item-badge">Crunchy</span>
-                    <img src="images/menu/chicken-wings.png" alt="Chicken Wings" class="item-img">
-                    <h3>Chicken Wings</h3>
-                    <p class="item-desc">Sticky glazed chicken wings — choose BBQ, hot, or honey garlic sauce.</p>
+                    <span class="item-badge">Spicy</span>
+                    <img src="images/menu/chicken-kabab.png" alt="Cheekulu Stick" class="item-img">
+                    <h3>Cheekulu Stick</h3>
+                    <p class="item-desc">1 Stick (₹60)</p>
                     <div class="item-footer">
-                        <span class="item-price">₹(Contact the counter)</span>
+                        <span class="item-price">₹60</span>
                         <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
                     </div>
                     <div class="item-full-details">
-                        <p><strong>Sauce options:</strong> Classic BBQ (smoky & sweet), Hot Buffalo (spicy), or Honey Garlic (sweet & savory).</p>
-                        <p><strong>Portion:</strong> 6 pieces per serving, with celery sticks and ranch dip.</p>
+                        <p><strong>Description:</strong> A unique street-style chicken stick, marinated in bold spices and grilled to perfection.</p>
+                        <p><strong>Best enjoyed:</strong> With a squeeze of lemon and a side of spicy chutney.</p>
                     </div>
                 </div>
                 <div class="menu-item" data-category="chicken">
-                    <img src="images/menu/chicken-leg-piece.png" alt="Chicken Leg Piece" class="item-img">
-                    <h3>Chicken Leg Piece</h3>
-                    <p class="item-desc">Juicy whole leg piece marinated overnight and deep-fried to crispy goodness.</p>
+                    <span class="item-badge">Crunchy</span>
+                    <img src="images/menu/chicken-popcorn-kfc.png" alt="Chicken Popcorn - KFC Style" class="item-img">
+                    <h3>Chicken Popcorn - KFC Style</h3>
+                    <p class="item-desc">1 Plate (₹100)</p>
                     <div class="item-footer">
-                        <span class="item-price">₹(Contact the counter)</span>
+                        <span class="item-price">₹100</span>
                         <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
                     </div>
                     <div class="item-full-details">
-                        <p><strong>Marination:</strong> Buttermilk-based with a blend of secret spices, ensuring juicy meat inside and a crunchy crust outside.</p>
-                        <p><strong>Serving:</strong> One large leg piece with a side of spiced mayo.</p>
+                        <p><strong>Description:</strong> Bite-sized, crispy chicken popcorn with a secret KFC-style spice blend.</p>
+                        <p><strong>Served with:</strong> Creamy mayo dip.</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="chicken">
+                    <span class="item-badge">Popular</span>
+                    <img src="images/menu/chicken-wings.png" alt="Chicken Wings - Oil Fried" class="item-img">
+                    <h3>Chicken Wings - Oil Fried</h3>
+                    <p class="item-desc">3 Pieces (₹100)</p>
+                    <div class="item-footer">
+                        <span class="item-price">₹100</span>
+                        <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
+                    </div>
+                    <div class="item-full-details">
+                        <p><strong>Description:</strong> Classic deep-fried chicken wings with a crispy, golden coating.</p>
+                        <p><strong>Served with:</strong> Celery sticks and ranch dip.</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="chicken">
+                    <span class="item-badge">Premium</span>
+                    <img src="images/menu/chicken-leg-kfc.png" alt="Chicken Leg - KFC Style" class="item-img">
+                    <h3>Chicken Leg - KFC Style</h3>
+                    <p class="item-desc">1 Piece (₹80) | 2 Pieces (₹150)</p>
+                    <div class="item-footer">
+                        <span class="item-price">₹80 / ₹150</span>
+                        <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
+                    </div>
+                    <div class="item-full-details">
+                        <p><strong>Description:</strong> Juicy, flavorful chicken leg with a crispy, KFC-style coating. Available in 1 or 2 pieces.</p>
+                        <p><strong>Served with:</strong> Spiced mayo and a soft dinner roll.</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="chicken">
+                    <span class="item-badge">Premium</span>
+                    <img src="images/menu/chicken-wings-kfc.png" alt="Chicken Wings - KFC Style" class="item-img">
+                    <h3>Chicken Wings - KFC Style</h3>
+                    <p class="item-desc">3 Pieces (₹130)</p>
+                    <div class="item-footer">
+                        <span class="item-price">₹130</span>
+                        <button class="btn-details" onclick="toggleDetails(this)">Details ▼</button>
+                    </div>
+                    <div class="item-full-details">
+                        <p><strong>Description:</strong> Premium chicken wings with a signature KFC-style crispy coating and secret spice blend.</p>
+                        <p><strong>Served with:</strong> Celery sticks and creamy ranch dip.</p>
                     </div>
                 </div>
 
